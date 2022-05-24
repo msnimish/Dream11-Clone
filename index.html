@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <title>Dream 11 Clone</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body{
+            font-family: 'Roboto', sans-serif; ;
+        }
+
+        /* The code for the top section  */
+        .top-section{
+            /* it takes the width of the parent */
+            width:100%;
+            height: 400px;
+            background:url("https://cdnflags.dream11.com/d11-static-pages/images/homebg_2022_ipl_updated.webp");
+            display: flex;
+            margin-bottom: 20px;
+            position:relative;
+        }
+
+        .banner-section{
+            width: 50%;
+            /* border: 1px solid white; */
+            height: 100%;
+            margin:auto;
+            display:flex;
+        }
+
+        .banner{
+            width:50%;
+            height: 100%;
+        }
+
+        .banner-image{
+            height:100%;
+        }
+
+        .ipl-image{
+            width:80%;
+        }
+
+        .banner-title{
+            color:white;
+            margin-bottom: 20px;
+        }
+
+        input{
+            padding: 2%;
+            width:50%;
+            border-radius: 5px;
+        }
+
+        button{
+            color: white;
+            background-color: #00b137;
+            border-radius: 5px;
+            padding: 2%;
+            /* font-family: 'Roboto', sans-serif; */
+        }
+
+        .corner-image img{
+            position: absolute;
+            /* width: 10%; */
+            height:200px;
+        }
+
+        /* The code for the bottom section */
+        .main{
+            width: 80%;
+            margin:auto;
+            height: 400px;
+            /* background-color: black; */
+        }
+        
+        .main-title{
+            text-align: center;
+        }
+        
+        .secondary-title{
+            text-align: center;
+            margin-top:30px;
+            color: #2072E4;
+            background: linear-gradient(90deg, #FFFFFF 0%, #E3EFFF 50.93%, #FFFFFF 101.85%);
+            /* background-color: aquamarine; */
+            padding: 20px;
+        }
+
+        .main-text{
+            text-align:center;
+            margin-top: 30px;
+            font-size: 20px;
+        }
+
+        span{
+            color: red;
+        }
+
+        /* Cards section */
+
+        .card-parent{
+            display: flex;
+            width:100%;
+            margin-top: 80px;
+            justify-content:space-between;
+        }
+
+        .card{
+            width: 25%;
+            background-color: #EEEEEE;
+            padding: 20px 30px;
+            border-radius: 10px;
+            position: relative;
+        }
+
+        .card-img{
+            width: 40%;
+            position:absolute;
+            top: -50%;
+            right:20px;
+        }
+
+        .card-number{
+            width:40px;
+            height:40px;
+            border-radius: 50%;
+            background-color: green;
+            color:white;
+            text-align: center;
+            padding: 1% 1%;
+            font-size: 25px;
+            box-sizing: border-box;
+            position: absolute;
+            top:-25%;
+            /* border: 2px solid white; */
+
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="top-section">
+        <div class="corner-image">
+            <img src="https://cdnflags.dream11.com/d11-static-pages/images/Logo-Bolt.webp" alt="">
+        </div>
+        <div class="banner-section">
+            <div class="banner">
+                <img class="banner-image" src="https://cdnflags.dream11.com/d11-static-pages/images/players_2022_ipl_updated.webp" alt="">
+            </div>
+            <div class="banner">
+                <img class="ipl-image"src="https://cdnflags.dream11.com/d11-static-pages/images/tata_ipl_d11_logo_unit.webp" alt="">
+                <h2 class="banner-title">Download the official Dream11 App</h2>
+                <input type="text" placeholder="Enter Mobile Number">
+                <button>GET APP LINK</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="main">
+        <h1 class="main-title">It's easy to start playing <span>Fantasy Cricket on Dream11</span></h1>
+        <h4 class="secondary-title">Play Fantasy cricket on Dream11 and win big!</h4>
+        <p class="main-text">Enter into the thrilling world of Fantasy sports, a strategy-based online sports game wherein you can create a virtual team of real players playing in real life matches. Create your team to win points based on all the players' performance in a live game.</p>
+
+        <div class="card-parent">
+            <div class="card">
+                <h2>Select a Match</h2>
+                <p>Choose an upcoming match that you want to play</p>
+                <img class="card-img" src="https://cdnflags.dream11.com/d11-static-pages/images/winning_step_1-22.webp" alt="">
+                <div class="card-number">1</div>
+            </div>
+
+            <div class="card">
+                <h2>Create Team</h2>
+                <p>Use your skills to pick the right players</p>
+                <img class="card-img" src="https://cdnflags.dream11.com/d11-static-pages/images/winning_step_new2.webp" alt="">
+                <div class="card-number">2</div>
+            </div>
+
+            <div class="card">
+                <h2>Join Contests</h2>
+                <p>Choose between different contests and win money</p>
+                <img class="card-img" src="https://cdnflags.dream11.com/d11-static-pages/images/winning_step_new4.webp" alt="">
+                <div class="card-number">3</div>
+            </div>
+        </div>
+
+    </div>
+
+    
+</body>
+</html>

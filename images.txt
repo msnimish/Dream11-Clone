@@ -1,0 +1,19 @@
+Dream11 Logo=https://cdnflags.dream11.com/d11-static-pages/images/Logo-Bolt.webp
+
+Dream11 Banner1 = https://cdnflags.dream11.com/d11-static-pages/images/players_2022_ipl_updated.webp
+
+Banner2 = https://cdnflags.dream11.com/d11-static-pages/images/tata_ipl_d11_logo_unit.webp
+
+Background= https://cdnflags.dream11.com/d11-static-pages/images/homebg_2022_ipl_updated.webp
+
+
+
+
+
+Bottom section images:-
+
+https://cdnflags.dream11.com/d11-static-pages/images/winning_step_1-22.webp
+
+https://cdnflags.dream11.com/d11-static-pages/images/winning_step_new2.webp
+
+https://cdnflags.dream11.com/d11-static-pages/images/winning_step_new4.webp
